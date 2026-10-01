@@ -1,0 +1,2254 @@
+{
+  "metabolites": [
+    {
+      "id": "FOR",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 820.0870971679688,
+          "y": 576.6007995605469,
+          "category": "Carbon source / exchange",
+          "display_name": "FOR",
+          "flux": 0.03791432507995428,
+          "label_dx": -9.978464126586914,
+          "label_dy": -1.2473078072071075,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "CO2",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 710.323974609375,
+          "y": 576.3002319335938,
+          "color": "#aec7e8",
+          "category": "Carbon source / exchange",
+          "display_name": "CO2",
+          "concentration": 0.10944450863914354,
+          "concentration_log10": -0.9608060242061206,
+          "concentration_normalized": 0.9773958691627025,
+          "flux": 0.3254171089196946,
+          "label_dx": -51.76327466964722,
+          "label_dy": -24.946157563477755,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "RuBP",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 674.234278480809,
+          "y": 505.73937298940194,
+          "category": "CBB intermediates",
+          "display_name": "RuBP",
+          "concentration": 1.0003783101331065e-9,
+          "concentration_log10": -8.999835733066707,
+          "concentration_normalized": 0.00001997138290151016,
+          "flux": 0.2569699030693633,
+          "label_dx": -6.236537933349609,
+          "label_dy": -15.59134840965271,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "PG3",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 550.0083914900691,
+          "y": 644.4977575762077,
+          "align": "lower",
+          "category": "EMP / sugar phosphate",
+          "display_name": "PG3",
+          "concentration": 1.0003939133707467e-9,
+          "concentration_log10": -8.999828959282139,
+          "concentration_normalized": 0.000020794931764147976,
+          "flux": 0.5139398061387265,
+          "label_dx": -14.967693328857422,
+          "label_dy": -5.612885475158691,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "E4P",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 438.45813822777257,
+          "y": 523.338223089311,
+          "category": "PPP intermediates",
+          "display_name": "E4P",
+          "concentration": 0.000047087431647381614,
+          "concentration_log10": -4.327094997214724,
+          "concentration_normalized": 0.5681263644668609,
+          "flux": 0.08200352041503031,
+          "label_dx": -86.06423854827881,
+          "label_dy": -0.6236536502838135,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "DHAP",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 335.9856798390945,
+          "y": 438.5371117763592,
+          "category": "EMP / sugar phosphate",
+          "display_name": "DHAP",
+          "concentration": 1.0003657174455789e-9,
+          "concentration_log10": -8.999841199967651,
+          "concentration_normalized": 0.000019306723432382753,
+          "flux": 0.24550870939547276,
+          "label_dx": -44.903083607554436,
+          "label_dy": -13.096732378005981,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "SBP",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 506.7514953613281,
+          "y": 481.6995544433594,
+          "align": "left",
+          "category": "CBB intermediates",
+          "display_name": "SBP",
+          "concentration": 1.0044182000886824e-9,
+          "concentration_log10": -8.998085426458445,
+          "concentration_normalized": 0.00023277162802988295,
+          "flux": 0.08186097073860621,
+          "label_dx": 74.83847236633301,
+          "label_dy": 2.49461567401886,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "S7P",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 506.9514285226701,
+          "y": 416.25177934040244,
+          "align": "left",
+          "category": "PPP intermediates",
+          "display_name": "S7P",
+          "concentration": 0.011122644821069665,
+          "concentration_log10": -1.9537919308636258,
+          "concentration_normalized": 0.8566697956003216,
+          "flux": 0.08186097073860601,
+          "label_dx": 26.19346535205841,
+          "label_dy": -18.709618091583252,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "Xu5P",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 454.61511683701076,
+          "y": 349.34932774990347,
+          "category": "PPP intermediates",
+          "display_name": "Xu5P",
+          "concentration": 1.0003627557678976e-9,
+          "concentration_log10": -8.999842485739599,
+          "concentration_normalized": 0.00001915040077192288,
+          "flux": 0.024101386454016716,
+          "label_dx": -31.80634915828705,
+          "label_dy": -17.462310075759888,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "GAP",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 287.7152732540341,
+          "y": 534.2553977692467,
+          "align": "upper",
+          "category": "EMP / sugar phosphate",
+          "display_name": "GAP",
+          "concentration": 1.0004018627932318e-9,
+          "concentration_log10": -8.999825508264937,
+          "concentration_normalized": 0.00002121450242851917,
+          "flux": 0.5030582406548407,
+          "label_dx": -54.881547033786774,
+          "label_dy": 28.064425750635564,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "F6P",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 326.4853078171533,
+          "y": 315.88809002277367,
+          "align": "left",
+          "category": "EMP / sugar phosphate",
+          "display_name": "F6P",
+          "concentration": 0.0022043241692244146,
+          "concentration_log10": -2.6567245375185724,
+          "concentration_normalized": 0.771208065467538,
+          "flux": 0.23343077023329645,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "R5P",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 596.2604290261763,
+          "y": 362.01858534352425,
+          "align": "lower center",
+          "category": "PPP intermediates",
+          "display_name": "R5P",
+          "concentration": 0.0000285294086826064,
+          "concentration_log10": -4.544707229693867,
+          "concentration_normalized": 0.5416693219144811,
+          "flux": 0.011979418388796518,
+          "label_dx": 33.0536584854126,
+          "label_dy": -26.817118883132935,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "Ru5P",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 506.20771144237233,
+          "y": 249.62983587243636,
+          "category": "PPP intermediates",
+          "display_name": "Ru5P",
+          "concentration": 1.0003633264234776e-9,
+          "concentration_log10": -8.99984223799697,
+          "concentration_normalized": 0.000019180521033000977,
+          "flux": 0.2569699030693635,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "G6P",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 385.89609934994917,
+          "y": 269.4964841787639,
+          "align": "left",
+          "category": "EMP / sugar phosphate",
+          "display_name": "G6P",
+          "concentration": 1.000392364549532e-9,
+          "concentration_log10": -8.999829631662307,
+          "concentration_normalized": 0.000020713184564087527,
+          "flux": 0.2212105625587083,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "FBP",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 285.85964518038156,
+          "y": 384.4500106573072,
+          "align": "lower",
+          "category": "EMP / sugar phosphate",
+          "display_name": "FBP",
+          "concentration": 1.0005016890397745e-9,
+          "concentration_log10": -8.999782173854323,
+          "concentration_normalized": 0.00002648304975488,
+          "flux": 0.16354921788348675,
+          "label_dx": -50.515968322753906,
+          "label_dy": -17.462310075759888,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "BPG",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 408.1137135312799,
+          "y": 646.716380097599,
+          "category": "EMP / sugar phosphate",
+          "display_name": "BPG",
+          "concentration": 0.16026155632164335,
+          "concentration_log10": -0.7951706440820678,
+          "concentration_normalized": 0.9975336263567595,
+          "flux": 0.5030582406548407,
+          "label_dx": -71.72020149230957,
+          "label_dy": 26.193464279174805,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "PG2",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 457.1246378733382,
+          "y": 730.9034008690575,
+          "category": "EMP / sugar phosphate",
+          "display_name": "PG2",
+          "concentration": 1.0002678992901616e-9,
+          "concentration_log10": -8.999883668398459,
+          "concentration_normalized": 0.000014143460925453282,
+          "flux": 0.010437975762553474,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "PEP",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 455.89211986379007,
+          "y": 828.4864939269859,
+          "category": "EMP / sugar phosphate",
+          "display_name": "PEP",
+          "concentration": 0.000016896764193602965,
+          "concentration_log10": -4.772196456771776,
+          "concentration_normalized": 0.5140114458270924,
+          "flux": 0.012820935942887574,
+          "label_dx": -7.483844757080078,
+          "label_dy": -2.4946157932281494,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "PYR",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 509.906306178426,
+          "y": 944.7525907699653,
+          "category": "EMP / sugar phosphate",
+          "display_name": "PYR",
+          "concentration": 0.05140770932828393,
+          "concentration_log10": -1.2889717473924487,
+          "concentration_normalized": 0.9374978615752602,
+          "flux": 0.011116914754790798,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "AcCoA",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 585.797355776322,
+          "y": 1066.8422095149772,
+          "category": "TCA / organic acid",
+          "display_name": "AcCoA",
+          "concentration": 0.0792221746459568,
+          "concentration_log10": -1.1011532403995796,
+          "concentration_normalized": 0.9603326175769065,
+          "flux": 0.0076018969576504836,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "OAA",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 534.7498237096323,
+          "y": 1125.8580135354055,
+          "align": "left",
+          "category": "TCA / organic acid",
+          "display_name": "OAA",
+          "concentration": 1.0000000000021915e-9,
+          "concentration_log10": -8.999999999999048,
+          "concentration_normalized": 0,
+          "flux": 0.012517239108731086,
+          "label_dx": 69.22558471560478,
+          "label_dy": 16.215001717209816,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "Cit",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 701.8711790413536,
+          "y": 1239.8420621349644,
+          "category": "TCA / organic acid",
+          "display_name": "Cit",
+          "concentration": 1.0003636936540105e-9,
+          "concentration_log10": -8.999842078568731,
+          "concentration_normalized": 0.00001919990413324503,
+          "flux": 0.005102767184796221,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "ICit",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 709.0411968944397,
+          "y": 1404.0969691401153,
+          "category": "TCA / organic acid",
+          "display_name": "ICit",
+          "concentration": 0.006257153221784936,
+          "concentration_log10": -2.2036232101238116,
+          "concentration_normalized": 0.826295598750263,
+          "flux": 0.00510276718479627,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "AKG",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 552.4668635963699,
+          "y": 1532.2135846096546,
+          "align": "lower center",
+          "category": "TCA / organic acid",
+          "display_name": "AKG",
+          "concentration": 2.0337721186774008e-7,
+          "concentration_log10": -6.6916977107767535,
+          "concentration_normalized": 0.28064071212340075,
+          "flux": 0.005102767184796283,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "Suc",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 358.90446026441896,
+          "y": 1460.262052301856,
+          "align": "left",
+          "category": "TCA / organic acid",
+          "display_name": "Suc",
+          "concentration": 1.0000024906507767e-9,
+          "concentration_log10": -8.999998918325458,
+          "concentration_normalized": 1.3150861910349193e-7,
+          "flux": 0.004556317303840137,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "Fum",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 315.2865885346622,
+          "y": 1298.576692310088,
+          "align": "left",
+          "category": "TCA / organic acid",
+          "display_name": "Fum",
+          "concentration": 0.00004107402388213437,
+          "concentration_log10": -4.386432748711888,
+          "concentration_normalized": 0.560912149537682,
+          "flux": 0.004511977395956143,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "Mal",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 362.1262206488474,
+          "y": 1196.823342488905,
+          "align": "left",
+          "category": "TCA / organic acid",
+          "display_name": "Mal",
+          "concentration": 0.00005462415131704227,
+          "concentration_log10": -4.2626152975032365,
+          "concentration_normalized": 0.5759657314895534,
+          "flux": 0.011116914754790827,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "CO2_out",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 769.8080444335938,
+          "y": 667.6121520996094,
+          "align": "lower left",
+          "category": "Carbon source / exchange",
+          "display_name": "CO2_out",
+          "flux": 0.027964983370800146,
+          "label_dx": 35.548274993896484,
+          "label_dy": -6.236538887023926,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "Biomass",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "hidden": true,
+          "category": "Biomass / product",
+          "display_name": "Biomass",
+          "flux": 0.00994934170915214
+        }
+      }
+    },
+    {
+      "id": "Cits",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "hidden": true,
+          "category": "Dilution / dummy",
+          "display_name": "Cits",
+          "concentration": 0.000002033515720151671,
+          "concentration_log10": -5.691752465920453,
+          "concentration_normalized": 0.40221289394341186,
+          "flux": 0.11347622237499183
+        }
+      }
+    },
+    {
+      "id": "Citu",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "hidden": true,
+          "category": "Dilution / dummy",
+          "display_name": "Citu",
+          "flux": 0
+        }
+      }
+    },
+    {
+      "id": "sink",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "hidden": true,
+          "category": "Dilution / dummy",
+          "display_name": "sink",
+          "flux": 0.3978580511580556
+        }
+      }
+    },
+    {
+      "id": "GAPs",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "hidden": true,
+          "category": "Dilution / dummy",
+          "display_name": "GAPs",
+          "concentration": 0.16792508011137136,
+          "concentration_log10": -0.774884435842024,
+          "concentration_normalized": 1,
+          "flux": 0.2637245755152307
+        }
+      }
+    },
+    {
+      "id": "GAPu",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "hidden": true,
+          "category": "Dilution / dummy",
+          "display_name": "GAPu",
+          "flux": 0
+        }
+      }
+    },
+    {
+      "id": "Sucs",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "hidden": true,
+          "category": "Other",
+          "display_name": "Sucs",
+          "concentration": 0.0002454644198622939,
+          "concentration_log10": -3.6100114500881473,
+          "concentration_normalized": 0.6553085495113418,
+          "flux": 0.1486044528482252
+        }
+      }
+    },
+    {
+      "id": "Sucu",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "hidden": true,
+          "category": "Other",
+          "display_name": "Sucu",
+          "flux": 0
+        }
+      }
+    },
+    {
+      "id": "BPGs",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "hidden": true,
+          "category": "Other",
+          "display_name": "BPGs",
+          "concentration": 0.0002874322869008121,
+          "concentration_log10": -3.541464449718519,
+          "concentration_normalized": 0.6636424142254546,
+          "flux": 0.15335976873984025
+        }
+      }
+    },
+    {
+      "id": "BPGu",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "hidden": true,
+          "category": "Other",
+          "display_name": "BPGu",
+          "flux": 0
+        }
+      }
+    },
+    {
+      "id": "PG3s",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "hidden": true,
+          "category": "Other",
+          "display_name": "PG3s",
+          "concentration": 0.00021844031724307431,
+          "concentration_log10": -3.660667201405783,
+          "concentration_normalized": 0.6491498820832049,
+          "flux": 0.1165510828378235
+        }
+      }
+    },
+    {
+      "id": "PG3u",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "hidden": true,
+          "category": "Other",
+          "display_name": "PG3u",
+          "flux": 0
+        }
+      }
+    },
+    {
+      "id": "GAP__copy2",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 598.9989111103052,
+          "y": 431.1695727647092,
+          "align": "upper",
+          "category": "EMP / sugar phosphate",
+          "display_name": "GAP",
+          "concentration": 1.0004018627932318e-9,
+          "concentration_log10": -8.999825508264937,
+          "concentration_normalized": 0.00002121450242851917,
+          "flux": 0.5030582406548407,
+          "label_dx": -8.107502579689026,
+          "label_dy": 4.989231824874878,
+          "source_metabolite_id": "GAP",
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "S7P__copy2",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 95.46902953585368,
+          "y": 484.35920121540244,
+          "align": "left",
+          "category": "PPP intermediates",
+          "display_name": "S7P",
+          "concentration": 0.011122644821069665,
+          "concentration_log10": -1.9537919308636258,
+          "concentration_normalized": 0.8566697956003216,
+          "flux": 0.08186097073860601,
+          "source_metabolite_id": "S7P",
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "E4P__copy2",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 104.30886149437413,
+          "y": 334.500332464311,
+          "category": "PPP intermediates",
+          "display_name": "E4P",
+          "concentration": 0.000047087431647381614,
+          "concentration_log10": -4.327094997214724,
+          "concentration_normalized": 0.5681263644668609,
+          "flux": 0.08200352041503031,
+          "label_dx": -43.6557731628418,
+          "label_dy": -17.462310552597046,
+          "source_metabolite_id": "E4P",
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "PYR__copy2",
+      "name": "",
+      "compartment": "c",
+      "notes": {
+        "map_info": {
+          "x": 208.18705263838694,
+          "y": 1018.4730497543403,
+          "category": "EMP / sugar phosphate",
+          "display_name": "PYR",
+          "concentration": 0.05140770932828393,
+          "concentration_log10": -1.2889717473924487,
+          "concentration_normalized": 0.9374978615752602,
+          "flux": 0.011116914754790798,
+          "source_metabolite_id": "PYR",
+          "hidden": false
+        }
+      }
+    }
+  ],
+  "reactions": [
+    {
+      "id": "v1_fdh",
+      "name": "",
+      "metabolites": {
+        "CO2": 1,
+        "FOR": -1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "FOR(a) -> CO2(a)",
+        "map_info": {
+          "x": 780.8831176757812,
+          "y": 576.7623291015625,
+          "display_name": "v1_fdh",
+          "pathway": "Exchange",
+          "color": "#e4f0f7",
+          "relative_flux": 0.15073533048817747,
+          "dasharray": "none",
+          "relative_rank": 0.3870967741935484,
+          "reversibility": false,
+          "flux": 0.07582865015990856,
+          "label_dx": -36.795581340789795,
+          "label_dy": -28.06442642211914,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v2_Rubisco",
+      "name": "",
+      "metabolites": {
+        "CO2": -1,
+        "PG3": 2,
+        "RuBP": -1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "RuBP(abcde)+CO2(f) -> PG3(cde)+PG3(fba)",
+        "map_info": {
+          "x": 606.0940032849683,
+          "y": 611.7781399463811,
+          "cofactors": {},
+          "display_name": "v2_Rubisco",
+          "pathway": "CBB",
+          "color": "#93c8ed",
+          "relative_flux": 0.5108154132111233,
+          "dasharray": "none",
+          "relative_rank": 0.12903225806451613,
+          "reversibility": false,
+          "flux": 0.25696990306936324,
+          "label_dx": -34.30096769332886,
+          "label_dy": 18.08596420288086,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v3_sba",
+      "name": "",
+      "metabolites": {
+        "DHAP": -1,
+        "E4P": -1,
+        "SBP": 1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "E4P(defg)+DHAP(abc) -> SBP(cbadefg)",
+        "map_info": {
+          "x": 477.95581817626953,
+          "y": 534.171630859375,
+          "cofactors": {
+            "DHAP": {
+              "x": 449.1599769592285,
+              "y": 568.9026184082031,
+              "align": "upper center",
+              "flux": 0.24550870939547276,
+              "concentration": 1.0003657174455789e-9,
+              "concentration_log10": -8.999841199967651,
+              "concentration_normalized": 0.000019306723432382753,
+              "display_name": "DHAP",
+              "label_dx": 20.580580353736877,
+              "label_dy": 11.849424123764038,
+              "hidden": false
+            }
+          },
+          "display_name": "v3_sba",
+          "pathway": "PPP",
+          "color": "#f7c1c1",
+          "relative_flux": 0.16272662710394373,
+          "dasharray": "none",
+          "relative_rank": 0.3225806451612903,
+          "reversibility": true,
+          "flux": 0.08186097073860626,
+          "label_dx": 3.118271827697754,
+          "label_dy": -7.483845233917236,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v4_sbp",
+      "name": "",
+      "metabolites": {
+        "S7P": 1,
+        "SBP": -1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "SBP(abcdefg) -> S7P(abcdefg)",
+        "map_info": {
+          "x": 508.3219299316406,
+          "y": 454.9686279296875,
+          "display_name": "v4_sbp",
+          "pathway": "PPP",
+          "color": "#f7c1c1",
+          "relative_flux": 0.1627266271039435,
+          "dasharray": "none",
+          "relative_rank": 0.3548387096774194,
+          "reversibility": false,
+          "flux": 0.08186097073860615,
+          "label_dx": -3.7419216632843018,
+          "label_dy": -10.602117002010345,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v5_tkt1",
+      "name": "",
+      "metabolites": {
+        "E4P": -1,
+        "F6P": 1,
+        "GAP": 1,
+        "Xu5P": -1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "Xu5P(abcde)+E4P(fghi) -> GAP(cde)+F6P(abfghi)",
+        "map_info": {
+          "x": 428.700267157569,
+          "y": 468.1493808547136,
+          "display_name": "v5_tkt1",
+          "pathway": "PPP",
+          "color": "#f7c1c1",
+          "relative_flux": 0.024096550032539202,
+          "dasharray": "none",
+          "relative_rank": 0.5483870967741935,
+          "reversibility": true,
+          "flux": -0.012121968065220519,
+          "label_dx": -29.9353885948658,
+          "label_dy": -34.924620270729065,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v6_tkt2",
+      "name": "",
+      "metabolites": {
+        "R5P": -1,
+        "S7P": 1,
+        "Xu5P": -1,
+        "GAP__copy2": 1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "Xu5P(abcde)+R5P(fghij) -> GAP(cde)+S7P(abfghij)",
+        "map_info": {
+          "x": 546.1374358606256,
+          "y": 390.5761135941291,
+          "display_name": "v6_tkt2",
+          "pathway": "PPP",
+          "color": "#f7c1c1",
+          "relative_flux": 0.023813183883445308,
+          "dasharray": "none",
+          "relative_rank": 0.5806451612903226,
+          "reversibility": true,
+          "flux": -0.011979418388796207,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v7_tal",
+      "name": "",
+      "metabolites": {
+        "F6P": 1,
+        "GAP": -1,
+        "S7P__copy2": -1,
+        "E4P__copy2": 1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "S7P(abcghij)+GAP(def) -> F6P(abcdef)+E4P(ghij)",
+        "map_info": {
+          "x": 178.10718480462936,
+          "y": 420.63449517958213,
+          "display_name": "v7_tal",
+          "pathway": "PPP",
+          "color": "#f7c1c1",
+          "relative_flux": 0.13891344322049762,
+          "dasharray": "none",
+          "relative_rank": 0.41935483870967744,
+          "reversibility": true,
+          "flux": 0.06988155234980965,
+          "label_dx": -64.8600082397461,
+          "label_dy": -6.236539840698242,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v10_rpi",
+      "name": "",
+      "metabolites": {
+        "R5P": 1,
+        "Ru5P": -1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "Ru5P(abcde) -> R5P(abcde)",
+        "map_info": {
+          "x": 551.4583569598876,
+          "y": 303.26297342393235,
+          "display_name": "v10_rpi",
+          "pathway": "PPP",
+          "color": "#f7c1c1",
+          "relative_flux": 0.023174163773688184,
+          "dasharray": "none",
+          "relative_rank": 0.6129032258064516,
+          "reversibility": true,
+          "flux": -0.011657954056638725,
+          "label_dx": -55.50519943237305,
+          "label_dy": 12.47307813167572,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v11_rpe",
+      "name": "",
+      "metabolites": {
+        "Ru5P": -1,
+        "Xu5P": 1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "Ru5P(abcde) -> Xu5P(abcde)",
+        "map_info": {
+          "x": 479.58201592547755,
+          "y": 294.2254767091946,
+          "display_name": "v11_rpe",
+          "pathway": "PPP",
+          "color": "#f7c1c1",
+          "relative_flux": 0.047909733915984465,
+          "dasharray": "none",
+          "relative_rank": 0.4838709677419355,
+          "reversibility": true,
+          "flux": -0.0241013864540167,
+          "label_dx": -64.86001205444336,
+          "label_dy": -14.344040662050247,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v12_prk",
+      "name": "",
+      "metabolites": {
+        "Ru5P": -1,
+        "RuBP": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "Ru5P(abcde) -> RuBP(abcde)",
+        "map_info": {
+          "x": 647.6858019593024,
+          "y": 341.196770633705,
+          "display_name": "v12_prk",
+          "pathway": "CBB",
+          "color": "#93c8ed",
+          "relative_flux": 0.5108154132111237,
+          "dasharray": "none",
+          "relative_rank": 0.0967741935483871,
+          "reversibility": false,
+          "flux": 0.2569699030693634,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v13_pgi",
+      "name": "",
+      "metabolites": {
+        "F6P": 1,
+        "G6P": -1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "G6P(abcdef) -> F6P(abcdef)",
+        "map_info": {
+          "x": 346.22069347986366,
+          "y": 296.6374311407568,
+          "display_name": "v13_pgi",
+          "pathway": "EMP",
+          "color": "#f9c780",
+          "relative_flux": 0.43973151552145184,
+          "dasharray": "none",
+          "relative_rank": 0.1935483870967742,
+          "reversibility": true,
+          "flux": -0.2212105625587084,
+          "label_dx": -1.2473068237304688,
+          "label_dy": -6.860193610191345,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v14_g6pdh",
+      "name": "",
+      "metabolites": {
+        "CO2": 1,
+        "G6P": -1,
+        "Ru5P": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "G6P(abcdef) -> Ru5P(bcdef)+CO2(a)",
+        "map_info": {
+          "x": 437.8783563780353,
+          "y": 251.88058366180124,
+          "cofactors": {
+            "CO2": {
+              "x": 495.78515625,
+              "y": 196.04270935058594,
+              "flux": 0.3254171089196946,
+              "concentration": 0.10944450863914354,
+              "concentration_log10": -0.9608060242061206,
+              "concentration_normalized": 0.9773958691627025,
+              "color": "#aec7e8",
+              "display_name": "CO2",
+              "hidden": false
+            }
+          },
+          "display_name": "v14_g6pdh",
+          "pathway": "PPP",
+          "color": "#f7c1c1",
+          "relative_flux": 0.4397315155214514,
+          "dasharray": "none",
+          "relative_rank": 0.22580645161290322,
+          "reversibility": false,
+          "flux": 0.2212105625587082,
+          "label_dx": -72.9675076007843,
+          "label_dy": -23.07519507408142,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v15_pfk",
+      "name": "",
+      "metabolites": {
+        "F6P": -1,
+        "FBP": 1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "F6P(abcdef) -> FBP(abcdef)",
+        "map_info": {
+          "x": 301.83774158777703,
+          "y": 347.7108730180714,
+          "display_name": "v15_pfk",
+          "pathway": "EMP",
+          "color": "#f9c780",
+          "relative_flux": 0.32510990709662463,
+          "dasharray": "none",
+          "relative_rank": 0.25806451612903225,
+          "reversibility": true,
+          "flux": -0.16354921788348675,
+          "label_dx": -49.892316818237305,
+          "label_dy": 0.6236538887023926,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v16_fba",
+      "name": "",
+      "metabolites": {
+        "DHAP": 1,
+        "FBP": -1,
+        "GAP": 1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "FBP(abcdef) -> DHAP(cba)+GAP(def)",
+        "map_info": {
+          "x": 271.07621771138326,
+          "y": 450.29966343980493,
+          "display_name": "v16_fba",
+          "pathway": "EMP",
+          "color": "#f9c780",
+          "relative_flux": 0.32510990709662463,
+          "dasharray": "none",
+          "relative_rank": 0.25806451612903225,
+          "reversibility": true,
+          "flux": -0.16354921788348675,
+          "label_dx": -67.97827689349651,
+          "label_dy": -12.47307801246643,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v17_pgk",
+      "name": "",
+      "metabolites": {
+        "BPG": 1,
+        "PG3": -1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "PG3(abc) -> BPG(abc)",
+        "map_info": {
+          "x": 485.7649693481636,
+          "y": 658.0719680875252,
+          "display_name": "v17_pgk",
+          "pathway": "EMP",
+          "color": "#f9c780",
+          "relative_flux": 1,
+          "dasharray": "none",
+          "relative_rank": 0.03225806451612903,
+          "reversibility": true,
+          "flux": 0.5030582406548408,
+          "label_dx": -26.193466186523438,
+          "label_dy": -31.806350708007812,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v18_tpi",
+      "name": "",
+      "metabolites": {
+        "DHAP": -1,
+        "GAP": 1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "DHAP(abc) -> GAP(abc)",
+        "map_info": {
+          "x": 316.3367286785558,
+          "y": 469.1908656732054,
+          "display_name": "v18_tpi",
+          "pathway": "EMP",
+          "color": "#f9c780",
+          "relative_flux": 0.48803237787316467,
+          "dasharray": "none",
+          "relative_rank": 0.16129032258064516,
+          "reversibility": true,
+          "flux": -0.2455087093954727,
+          "label_dx": -36.17192840576172,
+          "label_dy": 8.731155902147293,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v19_gapdh",
+      "name": "",
+      "metabolites": {
+        "BPG": -1,
+        "GAP": 1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "BPG(abc) -> GAP(abc)",
+        "map_info": {
+          "x": 331.55444122122844,
+          "y": 596.2075287538074,
+          "display_name": "v19_gapdh",
+          "pathway": "EMP",
+          "color": "#f9c780",
+          "relative_flux": 0.9999999999999998,
+          "dasharray": "none",
+          "relative_rank": 0.06451612903225806,
+          "reversibility": true,
+          "flux": 0.5030582406548407,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v20_gpm",
+      "name": "",
+      "metabolites": {
+        "PG2": 1,
+        "PG3": -1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "PG3(abc) -> PG2(abc)",
+        "map_info": {
+          "x": 487.0791668375168,
+          "y": 692.321051944926,
+          "display_name": "v20_gpm",
+          "pathway": "EMP",
+          "color": "#f9c780",
+          "relative_flux": 0.02074904040726196,
+          "dasharray": "none",
+          "relative_rank": 0.7096774193548387,
+          "reversibility": true,
+          "flux": 0.010437975762553404,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v21_eno",
+      "name": "",
+      "metabolites": {
+        "PEP": 1,
+        "PG2": -1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "PG2(abc) -> PEP(abc)",
+        "map_info": {
+          "x": 440.1739346998485,
+          "y": 776.7524443259313,
+          "display_name": "v21_eno",
+          "pathway": "EMP",
+          "color": "#f9c780",
+          "relative_flux": 0.020749040407262238,
+          "dasharray": "none",
+          "relative_rank": 0.6774193548387096,
+          "reversibility": true,
+          "flux": 0.010437975762553543,
+          "label_dx": -3.741923689842224,
+          "label_dy": -11.225770771503448,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v22_pk",
+      "name": "",
+      "metabolites": {
+        "PEP": -1,
+        "PYR": 1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "PEP(abc) -> PYR(abc)",
+        "map_info": {
+          "x": 477.15005215777694,
+          "y": 877.8365512679484,
+          "display_name": "v22_pk",
+          "pathway": "EMP",
+          "color": "#f9c780",
+          "relative_flux": 0.004736946913407234,
+          "dasharray": "none",
+          "relative_rank": 1,
+          "reversibility": true,
+          "flux": -0.002382960180334022,
+          "label_dx": 0,
+          "label_dy": -16.838656425476074,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v23_pdh",
+      "name": "",
+      "metabolites": {
+        "AcCoA": 1,
+        "CO2": 1,
+        "PYR": -1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "PYR(abc) -> AcCoA(bc)+CO2(a)",
+        "map_info": {
+          "x": 533.4278148552706,
+          "y": 991.6822728650995,
+          "cofactors": {
+            "CO2": {
+              "x": 651.35498046875,
+              "y": 1013.87109375,
+              "align": "upper",
+              "flux": 0.3254171089196946,
+              "concentration": 0.10944450863914354,
+              "concentration_log10": -0.9608060242061206,
+              "concentration_normalized": 0.9773958691627025,
+              "color": "#aec7e8",
+              "display_name": "CO2",
+              "label_dx": -28.064425945281982,
+              "label_dy": -7.483848571777344,
+              "hidden": false
+            }
+          },
+          "display_name": "v23_pdh",
+          "pathway": "TCA",
+          "color": "#bc9cc8",
+          "relative_flux": 0.015111365530470135,
+          "dasharray": "none",
+          "relative_rank": 0.7419354838709677,
+          "reversibility": false,
+          "flux": 0.007601896957650511,
+          "label_dx": 1.8709640502929688,
+          "label_dy": -14.967693328857422,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v24_cs",
+      "name": "",
+      "metabolites": {
+        "AcCoA": -1,
+        "Cit": 1,
+        "OAA": -1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "OAA(abcd)+AcCoA(ef) -> Cit(dcbfea)",
+        "map_info": {
+          "x": 652.1120055018444,
+          "y": 1175.2535606412152,
+          "display_name": "v24_cs",
+          "pathway": "TCA",
+          "color": "#bc9cc8",
+          "relative_flux": 0.010143491891026004,
+          "dasharray": "none",
+          "relative_rank": 0.8709677419354839,
+          "reversibility": false,
+          "flux": 0.005102767184796186,
+          "label_dx": 1.8709602355957031,
+          "label_dy": -17.462310314178467,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v25_can",
+      "name": "",
+      "metabolites": {
+        "Cit": -1,
+        "ICit": 1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "Cit(abcdef) -> ICit(abcdef)",
+        "map_info": {
+          "x": 722.2866198220124,
+          "y": 1315.1184297384236,
+          "display_name": "v25_can",
+          "pathway": "TCA",
+          "color": "#bc9cc8",
+          "relative_flux": 0.010143491891026143,
+          "dasharray": "none",
+          "relative_rank": 0.8387096774193549,
+          "reversibility": true,
+          "flux": 0.005102767184796256,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v26_icd",
+      "name": "",
+      "metabolites": {
+        "AKG": 1,
+        "CO2": 1,
+        "ICit": -1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "ICit(abcdef) -> AKG(abcde)+CO2(f)",
+        "map_info": {
+          "x": 650.257523241366,
+          "y": 1486.6533330183993,
+          "cofactors": {
+            "CO2": {
+              "x": 635.5482788085938,
+              "y": 1580.064697265625,
+              "flux": 0.3254171089196946,
+              "concentration": 0.10944450863914354,
+              "concentration_log10": -0.9608060242061206,
+              "concentration_normalized": 0.9773958691627025,
+              "color": "#aec7e8",
+              "display_name": "CO2",
+              "hidden": false
+            }
+          },
+          "display_name": "v26_icd",
+          "pathway": "TCA",
+          "color": "#bc9cc8",
+          "relative_flux": 0.010143491891026198,
+          "dasharray": "none",
+          "relative_rank": 0.8064516129032258,
+          "reversibility": true,
+          "flux": 0.0051027671847962836,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v27_AKGDH",
+      "name": "",
+      "metabolites": {
+        "AKG": -1,
+        "CO2": 1,
+        "Suc": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "AKG(abcde) -> Suc(bcde,edcb)+CO2(a)",
+        "map_info": {
+          "x": 447.5905462147429,
+          "y": 1522.7473246629688,
+          "cofactors": {
+            "CO2": {
+              "x": 377.2900085449219,
+              "y": 1543.161376953125,
+              "align": "left",
+              "flux": 0.3254171089196946,
+              "concentration": 0.10944450863914354,
+              "concentration_log10": -0.9608060242061206,
+              "concentration_normalized": 0.9773958691627025,
+              "color": "#aec7e8",
+              "display_name": "CO2",
+              "hidden": false
+            }
+          },
+          "display_name": "v27_AKGDH",
+          "pathway": "TCA",
+          "color": "#bc9cc8",
+          "relative_flux": 0.009057236191795812,
+          "dasharray": "none",
+          "relative_rank": 0.9032258064516129,
+          "reversibility": false,
+          "flux": 0.004556317303840152,
+          "label_dx": -27.440771341323853,
+          "label_dy": -31.80634832382202,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v28_sdh",
+      "name": "",
+      "metabolites": {
+        "Fum": 1,
+        "Suc": -1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "Suc(abcd,dcba) -> Fum(abcd,dcba)",
+        "map_info": {
+          "x": 318.39395158456205,
+          "y": 1377.5578141255219,
+          "display_name": "v28_sdh",
+          "pathway": "TCA",
+          "color": "#bc9cc8",
+          "relative_flux": 0.008969095487001293,
+          "dasharray": "none",
+          "relative_rank": 0.9354838709677419,
+          "reversibility": true,
+          "flux": 0.004511977395956143,
+          "label_dx": -4.365577697753906,
+          "label_dy": -9.354808568954468,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v29_fum",
+      "name": "",
+      "metabolites": {
+        "Fum": -1,
+        "Mal": 1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "Fum(abcd,dcba) -> Mal(abcd)",
+        "map_info": {
+          "x": 330.65793117391183,
+          "y": 1246.5639115189729,
+          "group": 2,
+          "display_name": "v29_fum",
+          "pathway": "TCA",
+          "color": "#bc9cc8",
+          "relative_flux": 0.008969095487001293,
+          "dasharray": "none",
+          "relative_rank": 0.9354838709677419,
+          "reversibility": true,
+          "flux": 0.004511977395956143,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v30_mdh",
+      "name": "",
+      "metabolites": {
+        "Mal": -1,
+        "OAA": 1
+      },
+      "lower_bound": -1000,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "Mal(abcd) -> OAA(abcd)",
+        "map_info": {
+          "x": 433.7743919654181,
+          "y": 1143.1884312571704,
+          "group": 2,
+          "display_name": "v30_mdh",
+          "pathway": "TCA",
+          "color": "#bc9cc8",
+          "relative_flux": 0.013129567960633855,
+          "dasharray": "none",
+          "relative_rank": 0.7741935483870968,
+          "reversibility": true,
+          "flux": -0.006604937358834634,
+          "label_dx": -79.20404815673828,
+          "label_dy": -14.967693820595741,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v31_me",
+      "name": "",
+      "metabolites": {
+        "CO2": 1,
+        "Mal": -1,
+        "PYR__copy2": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "Mal(abcd) -> PYR(abc)+CO2(d)",
+        "map_info": {
+          "x": 339.81703299176917,
+          "y": 1065.8766444984117,
+          "cofactors": {
+            "CO2": {
+              "x": 319.1618957519531,
+              "y": 914.3018798828125,
+              "flux": 0.3254171089196946,
+              "concentration": 0.10944450863914354,
+              "concentration_log10": -0.9608060242061206,
+              "concentration_normalized": 0.9773958691627025,
+              "color": "#aec7e8",
+              "display_name": "CO2",
+              "label_dx": -54.257890701293945,
+              "label_dy": -20.580580234527588,
+              "hidden": false
+            }
+          },
+          "display_name": "v31_me",
+          "pathway": "Anaplerotic",
+          "color": "#d5e9c6",
+          "relative_flux": 0.022098663447635346,
+          "dasharray": "none",
+          "relative_rank": 0.6451612903225806,
+          "reversibility": false,
+          "flux": 0.011116914754790878,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v32_ppc",
+      "name": "",
+      "metabolites": {
+        "CO2": -1,
+        "OAA": 1,
+        "PEP": -1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "PEP(abc)+CO2(d) -> OAA(abcd)",
+        "map_info": {
+          "x": 464.6977678850833,
+          "y": 1007.4164512423743,
+          "group": 2,
+          "cofactors": {
+            "CO2": {
+              "x": 374.537841796875,
+              "y": 894.8385620117188,
+              "align": "left",
+              "flux": 0.3254171089196946,
+              "concentration": 0.10944450863914354,
+              "concentration_log10": -0.9608060242061206,
+              "concentration_normalized": 0.9773958691627025,
+              "color": "#aec7e8",
+              "display_name": "CO2",
+              "label_dx": -4.365577697753906,
+              "label_dy": -14.96769392490387,
+              "label_hidden": true,
+              "hidden": false
+            }
+          },
+          "display_name": "v32_ppc",
+          "pathway": "Anaplerotic",
+          "color": "#d5e9c6",
+          "relative_flux": 0.024882286179105616,
+          "dasharray": "none",
+          "relative_rank": 0.5161290322580645,
+          "reversibility": false,
+          "flux": 0.012517239108731133,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v33_CO2_out",
+      "name": "",
+      "metabolites": {
+        "CO2": -1,
+        "CO2_out": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "CO2(a) -> CO2_out(a)",
+        "map_info": {
+          "x": 739.2490234375,
+          "y": 621.9129638671875,
+          "display_name": "v33_CO2_out",
+          "pathway": "Exchange",
+          "color": "#e4f0f7",
+          "relative_flux": 0.11117990368032765,
+          "dasharray": "none",
+          "relative_rank": 0.45161290322580644,
+          "reversibility": false,
+          "flux": 0.05592996674160029,
+          "label_dx": 5.612884521484375,
+          "label_dy": -4.989231467247009,
+          "hidden": false
+        }
+      }
+    },
+    {
+      "id": "v34_Biomass",
+      "name": "",
+      "metabolites": {
+        "AKG": -0.0274616098698,
+        "AcCoA": -0.125592719896,
+        "Biomass": 1,
+        "DHAP": -0.00495112019769,
+        "E4P": -0.0071637742773,
+        "F6P": -0.00493699041803,
+        "GAP": -0.000873151840733,
+        "OAA": -0.0406828204702,
+        "PEP": -0.0152621571876,
+        "PG3": -0.0222924156341,
+        "PYR": -0.0568910813348,
+        "R5P": -0.0161550553572,
+        "Suc": -0.00222828349755
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "0.0161550553572R5P(abcde)+0.125592719896AcCoA(bc)+0.00493699041803F6P(abcdef)+0.0071637742773E4P(abcd)+0.0222924156341PG3(abc)+0.000873151840733GAP(abc)+0.00495112019769DHAP(abc)+0.0152621571876PEP(abc)+0.0568910813348PYR(abc)+0.0406828204702OAA(abcd)+0.0274616098698AKG(abcde)+0.00222828349755Suc(abcd,dcba) -> Biomass",
+        "map_info": {
+          "hidden": true,
+          "display_name": "v34_Biomass",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.01989868341830428
+        }
+      }
+    },
+    {
+      "id": "cit_d1",
+      "name": "",
+      "metabolites": {
+        "Cits": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "0Cit(abcdef) -> Cits(abcdef)",
+        "map_info": {
+          "hidden": true,
+          "display_name": "cit_d1",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.03867099402712687
+        }
+      }
+    },
+    {
+      "id": "cit_d2",
+      "name": "",
+      "metabolites": {
+        "Cits": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "0Citu(abcdef) -> Cits(abcdef)",
+        "map_info": {
+          "hidden": true,
+          "display_name": "cit_d2",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.07480522834786488
+        }
+      }
+    },
+    {
+      "id": "cit_d3",
+      "name": "",
+      "metabolites": {
+        "Cits": -1,
+        "sink": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "Cits(abcdef) -> sink",
+        "map_info": {
+          "hidden": true,
+          "display_name": "cit_d3",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.1134762223749919
+        }
+      }
+    },
+    {
+      "id": "gap_d1",
+      "name": "",
+      "metabolites": {
+        "GAPs": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "0GAP(abc) -> GAPs(abc)",
+        "map_info": {
+          "hidden": true,
+          "display_name": "gap_d1",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.22917731894135035
+        }
+      }
+    },
+    {
+      "id": "gap_d2",
+      "name": "",
+      "metabolites": {
+        "GAPs": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "0GAPu(abc) -> GAPs(abc)",
+        "map_info": {
+          "hidden": true,
+          "display_name": "gap_d2",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.034547256573880365
+        }
+      }
+    },
+    {
+      "id": "gap_d3",
+      "name": "",
+      "metabolites": {
+        "GAPs": -1,
+        "sink": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "GAPs(abc) -> sink",
+        "map_info": {
+          "hidden": true,
+          "display_name": "gap_d3",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.26372457551523065
+        }
+      }
+    },
+    {
+      "id": "suc_d1",
+      "name": "",
+      "metabolites": {
+        "Sucs": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "0Suc(abcd) -> Sucs(abcd)",
+        "map_info": {
+          "hidden": true,
+          "display_name": "suc_d1",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.1316605431544056
+        }
+      }
+    },
+    {
+      "id": "suc_d2",
+      "name": "",
+      "metabolites": {
+        "Sucs": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "0Sucu(abcd) -> Sucs(abcd)",
+        "map_info": {
+          "hidden": true,
+          "display_name": "suc_d2",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.016943909693819634
+        }
+      }
+    },
+    {
+      "id": "suc_d3",
+      "name": "",
+      "metabolites": {
+        "Sucs": -1,
+        "sink": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "Sucs(abcd) -> sink",
+        "map_info": {
+          "hidden": true,
+          "display_name": "suc_d3",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.14860445284822518
+        }
+      }
+    },
+    {
+      "id": "bpg_d1",
+      "name": "",
+      "metabolites": {
+        "BPGs": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "0BPG(abc) -> BPGs(abc)",
+        "map_info": {
+          "hidden": true,
+          "display_name": "bpg_d1",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.1370950601474258
+        }
+      }
+    },
+    {
+      "id": "bpg_d2",
+      "name": "",
+      "metabolites": {
+        "BPGs": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "0BPGu(abc) -> BPGs(abc)",
+        "map_info": {
+          "hidden": true,
+          "display_name": "bpg_d2",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.016264708592414422
+        }
+      }
+    },
+    {
+      "id": "bpg_d3",
+      "name": "",
+      "metabolites": {
+        "BPGs": -1,
+        "sink": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "BPGs(abc) -> sink",
+        "map_info": {
+          "hidden": true,
+          "display_name": "bpg_d3",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.15335976873984028
+        }
+      }
+    },
+    {
+      "id": "pg3_d1",
+      "name": "",
+      "metabolites": {
+        "PG3s": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "0PG3(abc) -> PG3s(abc)",
+        "map_info": {
+          "hidden": true,
+          "display_name": "pg3_d1",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.10205943515940948
+        }
+      }
+    },
+    {
+      "id": "pg3_d2",
+      "name": "",
+      "metabolites": {
+        "PG3s": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "0PG3u(abc) -> PG3s(abc)",
+        "map_info": {
+          "hidden": true,
+          "display_name": "pg3_d2",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.014491647678414286
+        }
+      }
+    },
+    {
+      "id": "pg3_d3",
+      "name": "",
+      "metabolites": {
+        "PG3s": -1,
+        "sink": 1
+      },
+      "lower_bound": 0,
+      "upper_bound": 1000,
+      "gene_reaction_rule": "",
+      "notes": {
+        "freeflux_atom_equation": "PG3s(abc) -> sink",
+        "map_info": {
+          "hidden": true,
+          "display_name": "pg3_d3",
+          "pathway": "Other",
+          "color": "#999999",
+          "reversibility": false,
+          "flux": 0.11655108283782324
+        }
+      }
+    }
+  ],
+  "genes": [],
+  "id": "FreeFlux_V5_3",
+  "compartments": {
+    "c": ""
+  },
+  "notes": {
+    "flux_map_concentration_size": {
+      "mode": "log10_minmax",
+      "unit": "mmol/gDCW",
+      "minimum": 1.0000000000021923e-9,
+      "maximum": 0.16792508011137136,
+      "node_radius_range": [
+        4,
+        12
+      ],
+      "missing_value_rule": "fallback_to_flux"
+    },
+    "flux_map_line_style": {
+      "mode": "relative_max",
+      "threshold": 0.001,
+      "reference_flux": 0.5030582406548408,
+      "reference_scope": "visible_reactions",
+      "absolute_threshold": 0.0005030582406548408,
+      "unit": "mmol/gDCW/h",
+      "low_relative_flux_reactions": [],
+      "zero_reference_rule": "all visible zero-flux reactions are dashed"
+    },
+    "map_info": {
+      "pathway_colors": {
+        "CBB": "#93c8ed",
+        "PPP": "#f7c1c1",
+        "EMP": "#f9c780",
+        "ED": "#aedbd2",
+        "TCA": "#bc9cc8",
+        "Anaplerotic": "#d5e9c6",
+        "Exchange": "#e4f0f7",
+        "Other": "#999999"
+      },
+      "guide_circles": []
+    },
+    "metabolite_category_colors": {
+      "Carbon source / exchange": "#4c78a8",
+      "CBB intermediates": "#2f8f5b",
+      "EMP / sugar phosphate": "#f28e2b",
+      "PPP intermediates": "#b279a2",
+      "TCA / organic acid": "#e15759",
+      "Biomass / product": "#59a14f",
+      "Dilution / dummy": "#9c9c9c",
+      "Other": "#7f7f7f"
+    },
+    "palette_schemes": {
+      "metabolites": {
+        "Standard": {
+          "mode": "standard"
+        },
+        "Categories": {
+          "mode": "category",
+          "colors": {
+            "Carbon source / exchange": "#4c78a8",
+            "CBB intermediates": "#2f8f5b",
+            "EMP / sugar phosphate": "#f28e2b",
+            "PPP intermediates": "#b279a2",
+            "TCA / organic acid": "#e15759",
+            "Biomass / product": "#59a14f",
+            "Dilution / dummy": "#9c9c9c",
+            "Other": "#7f7f7f"
+          }
+        }
+      },
+      "reactions": {
+        "Standard": {
+          "CBB": "#93c8ed",
+          "PPP": "#f7c1c1",
+          "EMP": "#f9c780",
+          "ED": "#aedbd2",
+          "TCA": "#bc9cc8",
+          "Anaplerotic": "#d5e9c6",
+          "Exchange": "#e4f0f7",
+          "Other": "#999999"
+        },
+        "Standard2": {
+          "CBB": "#aea7d1",
+          "PPP": "#dbe5f5",
+          "EMP": "#f2bcd1",
+          "ED": "#fadad4",
+          "TCA": "#50b9b8",
+          "Anaplerotic": "#474a9d",
+          "Exchange": "#8ec7d7",
+          "Other": "#e3c0da"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "template": "candidate01_demo/empty_template.json",
+  "template_transform": [
+    1,
+    0,
+    0
+  ],
+  "template_metabolites": {},
+  "template_reactions": {},
+  "canvas": [
+    1600,
+    1710
+  ],
+  "pathway_multiplicity": {
+    "enabled": true,
+    "normalization_flux": 1,
+    "label_mode": "local_flow"
+  },
+  "circular_backbone": {
+    "enabled": true,
+    "center": [
+      780,
+      820
+    ],
+    "radius": 500,
+    "start_angle_deg": -147.0909090909091,
+    "items": [
+      "Ru5P",
+      "RUMP_R05338",
+      "H6P",
+      "RUMP_R05339",
+      "F6P",
+      "IML_PGI",
+      "G6P",
+      "IML_G6PDH2r",
+      "SixPGL",
+      "IML_PGL",
+      "SixPG",
+      "IML_EDD",
+      "KDPG",
+      "IML_EDA",
+      "G3P",
+      "IML_TKT2",
+      "E4P",
+      "IML_TALA",
+      "S7P",
+      "IML_TKT1",
+      "R5P",
+      "IML_RPI"
+    ],
+    "external_metabolites": [
+      "Formaldehyde",
+      "Pyruvate"
+    ],
+    "satellite_inset": 150,
+    "satellite_spacing": 75,
+    "shared_metabolites": {
+      "Xu5P": {
+        "position": [
+          681.4116491388141,
+          933.0501529166224
+        ],
+        "label_offset": [
+          88.42105263157895,
+          -18.94736842105263
+        ]
+      }
+    },
+    "shared_instances": {
+      "G3P_regeneration": {
+        "metabolite": "G3P",
+        "reactions": [
+          "IML_TALA",
+          "IML_TKT1"
+        ],
+        "position": [
+          506.0363997778629,
+          994.839771657724
+        ],
+        "label_offset": [
+          97.05263157894737,
+          -5.703375717092912
+        ]
+      }
+    },
+    "instance_marker_style": "pool_code",
+    "input_arrows": true,
+    "side_reactions": [
+      {
+        "reaction": "IML_RPE",
+        "source": "Xu5P",
+        "target": "Ru5P",
+        "control_points": [
+          [
+            560,
+            740
+          ],
+          [
+            325.2331647558975,
+            668.3461687567235
+          ]
+        ],
+        "label_offset": [
+          71.92307692307692,
+          -26.153846153846153
+        ]
+      }
+    ],
+    "title": "RuMP-ED",
+    "subtitle": "Candidate 01",
+    "title_position": [
+      890,
+      685
+    ],
+    "instance_legend_position": [
+      800.0,
+      1575
+    ],
+    "view_overrides": {
+      "Ru5P": {
+        "label_dx": -68.18517465833709,
+        "label_dy": -49.178947368421056
+      },
+      "H6P": {
+        "label_dx": -19.982826148143122,
+        "label_dy": -49.178947368421056
+      },
+      "F6P": {
+        "label_dx": 6.487393974225227,
+        "label_dy": -49.178947368421056
+      },
+      "G6P": {
+        "label_dx": 38.481511002224025,
+        "label_dy": -49.178947368421056
+      },
+      "SixPGL": {
+        "label_dx": 119.80631578947369,
+        "label_dy": -39.81836029278348
+      },
+      "SixPG": {
+        "label_dx": 111.32631578947368,
+        "label_dy": 28.019816069163777
+      },
+      "KDPG": {
+        "label_dx": 37.99117784569901,
+        "label_dy": 54.231578947368426
+      },
+      "G3P": {
+        "label_dx": 6.2015492533939485,
+        "label_dy": 39.07368421052632
+      },
+      "E4P": {
+        "label_dx": -20.321290751408515,
+        "label_dy": 39.07368421052632
+      },
+      "S7P": {
+        "label_dx": -69.14333176944001,
+        "label_dy": 39.07368421052632
+      },
+      "R5P": {
+        "label_dx": -111.32631578947368,
+        "label_dy": -5.405907447439188
+      },
+      "RUMP_R05338": {
+        "label_dx": 53.75260033202695,
+        "label_dy": 55.89456505497202
+      },
+      "RUMP_R05339": {
+        "label_dx": 11.465722394479231,
+        "label_dy": 75.0443924324786
+      },
+      "IML_PGI": {
+        "label_dx": -34.46144139039247,
+        "label_dy": 68.29224011111242
+      },
+      "IML_G6PDH2r": {
+        "label_dx": -69.44734102672396,
+        "label_dy": 37.78186874447869
+      },
+      "IML_PGL": {
+        "label_dx": -82.38420057853425,
+        "label_dy": -6.79989433449899
+      },
+      "IML_EDD": {
+        "label_dx": -69.16465854560519,
+        "label_dy": -51.298654347930636
+      },
+      "IML_EDA": {
+        "label_dx": -33.9858261185712,
+        "label_dy": -81.58636940476552
+      },
+      "IML_TKT2": {
+        "label_dx": 11.98326596873675,
+        "label_dy": -88.04690397722688
+      },
+      "IML_TALA": {
+        "label_dx": 54.14775578068206,
+        "label_dy": -68.62908398651417
+      },
+      "IML_TKT1": {
+        "label_dx": 83.12071572202086,
+        "label_dy": -22.569726849643338
+      },
+      "IML_RPI": {
+        "label_dx": 78.9734074618812,
+        "label_dy": 16.922692864736412
+      },
+      "Pyruvate": {
+        "label_dx": 15.632578135034956,
+        "label_dy": 45.888467130011556
+      },
+      "Formaldehyde": {
+        "label_dx": -24.724769723709876,
+        "label_dy": -47.66490387314059
+      },
+      "H2O_IML_EDD": {
+        "label_dx": 31.81390751323724,
+        "label_dy": 31.95692194685885
+      },
+      "NADP_IML_G6PDH2r": {
+        "label_dx": 31.943933953026498,
+        "label_dy": -39.33354422567795
+      },
+      "NADPH_IML_G6PDH2r": {
+        "label_dx": 31.943933953026498,
+        "label_dy": -39.33354422567795
+      },
+      "H2O_IML_PGL": {
+        "label_dx": 53.05244077915772,
+        "label_dy": -3.669221535657253
+      },
+      "F6P_IML_TALA": {
+        "label_dx": -8.196830287976526,
+        "label_dy": -40.51029846782328
+      },
+      "F6P_IML_TKT2": {
+        "label_dx": -1.7295654025954823,
+        "label_dy": -35.36970513278522
+      },
+      "G3P_IML_TALA": {
+        "label_dx": 97.05263157894737,
+        "label_dy": -5.703375717092912
+      },
+      "G3P_IML_TKT1": {
+        "label_dx": 97.05263157894737,
+        "label_dy": -5.703375717092912
+      },
+      "H_IML_G6PDH2r": {
+        "label_dx": 33.28894771281264,
+        "label_dy": -19.139055845328375
+      },
+      "H_IML_PGL": {
+        "label_dx": 37.99984895016653,
+        "label_dy": -2.9048003823953255
+      }
+    }
+  },
+  "line_style": {
+    "mode": "flux_width_only",
+    "threshold": 0.4,
+    "width_range": [
+      3.2,
+      7.6
+    ],
+    "width_exponent": 0.65,
+    "unit": "relative flux (Pyruvate = 1)"
+  },
+  "publication_style": {
+    "metabolite_font_pt": 24,
+    "reaction_font_pt": 17,
+    "legend_position": [
+      590.0,
+      1610
+    ],
+    "readability_profile": "large_connected_v1",
+    "auto_label_clearance": true
+  },
+  "hidden_metabolites": [
+    "H",
+    "H2O",
+    "NADP",
+    "NADPH"
+  ],
+  "hidden_reactions": [],
+  "metabolites": {
+    "E4P": {
+      "x": 780,
+      "y": 820,
+      "display_name": "E4P",
+      "node_radius": 12
+    },
+    "F6P": {
+      "x": 780,
+      "y": 820,
+      "display_name": "F6P",
+      "node_radius": 12
+    },
+    "Formaldehyde": {
+      "x": 780,
+      "y": 820,
+      "display_name": "Formaldehyde",
+      "node_radius": 12
+    },
+    "G3P": {
+      "x": 780,
+      "y": 820,
+      "display_name": "G3P",
+      "node_radius": 12
+    },
+    "G6P": {
+      "x": 780,
+      "y": 820,
+      "display_name": "G6P",
+      "node_radius": 12
+    },
+    "H": {
+      "x": 780,
+      "y": 820,
+      "display_name": "H⁺",
+      "node_radius": 7
+    },
+    "H2O": {
+      "x": 780,
+      "y": 820,
+      "display_name": "H₂O",
+      "node_radius": 7
+    },
+    "H6P": {
+      "x": 780,
+      "y": 820,
+      "display_name": "H6P",
+      "node_radius": 12
+    },
+    "KDPG": {
+      "x": 780,
+      "y": 820,
+      "display_name": "KDPG",
+      "node_radius": 12
+    },
+    "NADP": {
+      "x": 780,
+      "y": 820,
+      "display_name": "NADP⁺",
+      "node_radius": 7
+    },
+    "NADPH": {
+      "x": 780,
+      "y": 820,
+      "display_name": "NADPH",
+      "node_radius": 7
+    },
+    "Pyruvate": {
+      "x": 780,
+      "y": 820,
+      "display_name": "Pyruvate",
+      "node_radius": 12
+    },
+    "R5P": {
+      "x": 780,
+      "y": 820,
+      "display_name": "R5P",
+      "node_radius": 12
+    },
+    "Ru5P": {
+      "x": 780,
+      "y": 820,
+      "display_name": "Ru5P",
+      "node_radius": 12
+    },
+    "S7P": {
+      "x": 780,
+      "y": 820,
+      "display_name": "S7P",
+      "node_radius": 12
+    },
+    "SixPG": {
+      "x": 780,
+      "y": 820,
+      "display_name": "6PG",
+      "node_radius": 12
+    },
+    "SixPGL": {
+      "x": 780,
+      "y": 820,
+      "display_name": "6PGL",
+      "node_radius": 12
+    },
+    "Xu5P": {
+      "x": 780,
+      "y": 820,
+      "display_name": "Xu5P",
+      "node_radius": 12
+    }
+  },
+  "reactions": {
+    "IML_EDA": {
+      "x": 780,
+      "y": 820,
+      "display_name": "EDA",
+      "pathway": "ED",
+      "color": "#4A8D88",
+      "cofactors": {}
+    },
+    "IML_EDD": {
+      "x": 780,
+      "y": 820,
+      "display_name": "EDD",
+      "pathway": "ED",
+      "color": "#4A8D88",
+      "cofactors": {
+        "H2O": {
+          "x": 780,
+          "y": 820,
+          "display_name": "H₂O",
+          "node_radius": 7,
+          "scientific_role": "cofactor",
+          "color": "#9AA6B2"
+        }
+      }
+    },
+    "IML_G6PDH2r": {
+      "x": 780,
+      "y": 820,
+      "display_name": "G6PDH",
+      "pathway": "Other",
+      "color": "#4A8D88",
+      "cofactors": {
+        "H": {
+          "x": 780,
+          "y": 820,
+          "display_name": "H⁺",
+          "node_radius": 7,
+          "scientific_role": "cofactor",
+          "color": "#9AA6B2"
+        },
+        "NADP": {
+          "x": 780,
+          "y": 820,
+          "display_name": "NADP⁺",
+          "node_radius": 7,
+          "scientific_role": "cofactor",
+          "color": "#9AA6B2"
+        },
+        "NADPH": {
+          "x": 780,
+          "y": 820,
+          "display_name": "NADPH",
+          "node_radius": 7,
+          "scientific_role": "cofactor",
+          "color": "#9AA6B2"
+        }
+      }
+    },
+    "IML_PGI": {
+      "x": 780,
+      "y": 820,
+      "display_name": "PGI",
+      "pathway": "Other",
+      "color": "#4A8D88",
+      "cofactors": {}
+    },
+    "IML_PGL": {
+      "x": 780,
+      "y": 820,
+      "display_name": "PGL",
+      "pathway": "Other",
+      "color": "#4A8D88",
+      "cofactors": {
+        "H2O": {
+          "x": 780,
+          "y": 820,
+          "display_name": "H₂O",
+          "node_radius": 7,
+          "scientific_role": "cofactor",
+          "color": "#9AA6B2"
+        },
+        "H": {
+          "x": 780,
+          "y": 820,
+          "display_name": "H⁺",
+          "node_radius": 7,
+          "scientific_role": "cofactor",
+          "color": "#9AA6B2"
+        }
+      }
+    },
+    "IML_RPE": {
+      "x": 780,
+      "y": 820,
+      "display_name": "RPE",
+      "pathway": "PPP",
+      "color": "#B58AA6",
+      "cofactors": {}
+    },
+    "IML_RPI": {
+      "x": 780,
+      "y": 820,
+      "display_name": "RPI",
+      "pathway": "PPP",
+      "color": "#B58AA6",
+      "cofactors": {}
+    },
+    "IML_TALA": {
+      "x": 780,
+      "y": 820,
+      "display_name": "TAL",
+      "pathway": "PPP",
+      "color": "#B58AA6",
+      "cofactors": {}
+    },
+    "IML_TKT1": {
+      "x": 780,
+      "y": 820,
+      "display_name": "TKT1",
+      "pathway": "PPP",
+      "color": "#B58AA6",
+      "cofactors": {}
+    },
+    "IML_TKT2": {
+      "x": 780,
+      "y": 820,
+      "display_name": "TKT2",
+      "pathway": "PPP",
+      "color": "#B58AA6",
+      "cofactors": {}
+    },
+    "RUMP_R05338": {
+      "x": 780,
+      "y": 820,
+      "display_name": "Hps",
+      "pathway": "Other",
+      "color": "#657786",
+      "cofactors": {}
+    },
+    "RUMP_R05339": {
+      "x": 780,
+      "y": 820,
+      "display_name": "Phi",
+      "pathway": "Other",
+      "color": "#657786",
+      "cofactors": {}
+    }
+  },
+  "scientific_layout": {
+    "enabled": true,
+    "roles": {
+      "source": [
+        "Formaldehyde"
+      ],
+      "sink": [
+        "Pyruvate"
+      ],
+      "cycle_anchor": [
+        "Ru5P"
+      ],
+      "regeneration": [
+        "E4P",
+        "Xu5P",
+        "S7P",
+        "R5P",
+        "IML_TKT2",
+        "IML_TALA",
+        "IML_TKT1",
+        "IML_RPI",
+        "IML_RPE"
+      ]
+    },
+    "role_palette": {
+      "source": "#2F6F8F",
+      "sink": "#2F6F8F",
+      "cycle_anchor": "#8B6FA3",
+      "regeneration": "#B58AA6"
+    },
+    "reaction_styles": {
+      "IML_EDA": {
+        "display_name": "EDA"
+      },
+      "IML_EDD": {
+        "display_name": "EDD"
+      },
+      "IML_G6PDH2r": {
+        "display_name": "G6PDH"
+      },
+      "IML_PGI": {
+        "display_name": "PGI"
+      },
+      "IML_PGL": {
+        "display_name": "PGL"
+      },
+      "IML_RPE": {
+        "display_name": "RPE"
+      },
+      "IML_RPI": {
+        "display_name": "RPI"
+      },
+      "IML_TALA": {
+        "display_name": "TAL"
+      },
+      "IML_TKT1": {
+        "display_name": "TKT1"
+      },
+      "IML_TKT2": {
+        "display_name": "TKT2"
+      },
+      "RUMP_R05338": {
+        "display_name": "Hps"
+      },
+      "RUMP_R05339": {
+        "display_name": "Phi"
+      }
+    }
+  }
+}

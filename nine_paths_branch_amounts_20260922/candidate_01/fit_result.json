@@ -1,0 +1,22 @@
+{
+  "opt_net_fluxes": {
+    "IML_EDA": 1.0,
+    "IML_EDD": 1.0,
+    "IML_G6PDH2r": 1.0,
+    "IML_PGI": 1.0,
+    "IML_PGL": 1.0,
+    "IML_RPE": 2.0,
+    "IML_RPI": 1.0,
+    "IML_TALA": 1.0,
+    "IML_TKT1": 1.0,
+    "IML_TKT2": 1.0,
+    "RUMP_R05338": 3.0,
+    "RUMP_R05339": 3.0
+  },
+  "normalization": {
+    "Pyruvate": 1,
+    "unit": "relative flux"
+  },
+  "pathway_id": "pathway-00000001",
+  "source_sha256": "d7668f5fcbe2c09cdcde3983351fa5fd3dea23bd0af18188c66fdaf309adb0d8"
+}

@@ -1,0 +1,7 @@
+cobra==0.32.1
+csscompressor
+ipython==8.18.1
+jinja2
+playwright
+PyMuPDF
+Pillow

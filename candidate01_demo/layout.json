@@ -1,0 +1,249 @@
+{
+  "template": "candidate01_demo/empty_template.json",
+  "template_transform": [1.0, 0.0, 0.0],
+  "template_metabolites": {},
+  "template_reactions": {},
+  "canvas": [1520, 1500],
+  "pathway_multiplicity": {
+    "enabled": true,
+    "normalization_flux": 1.0
+  },
+  "circular_backbone": {
+    "enabled": true,
+    "center": [760, 710],
+    "radius": 475,
+    "start_angle_deg": -147,
+    "items": [
+      "Ru5P", "RUMP_R05338", "H6P", "RUMP_R05339",
+      "F6P", "IML_PGI", "G6P", "IML_G6PDH2r",
+      "SixPGL", "IML_PGL", "SixPG", "IML_EDD",
+      "KDPG", "IML_EDA", "G3P", "IML_TKT2",
+      "E4P", "IML_TALA", "S7P", "IML_TKT1", "R5P", "IML_RPI"
+    ],
+    "external_metabolites": ["Formaldehyde", "Pyruvate"],
+    "satellite_inset": 130,
+    "satellite_spacing": 65,
+    "shared_metabolites": {
+      "Xu5P": {"position": [680, 770], "label_offset": [36, -20]}
+    },
+    "shared_instances": {
+      "G3P_regeneration": {"metabolite": "G3P", "reactions": ["IML_TALA", "IML_TKT1"],
+                           "position": [475, 900], "label_offset": [60, -6]}
+    },
+    "instance_marker_style": "pool_code",
+    "input_arrows": true,
+    "side_reactions": [
+      {"reaction": "IML_RPE", "source": "Xu5P", "target": "Ru5P",
+       "control_points": [[570, 640], [445, 485]], "label_offset": [48, -8]}
+    ],
+    "title": "RuMP-ED cycle",
+    "subtitle": "Candidate 01",
+    "title_position": [855, 615],
+    "instance_legend_position": [865, 710]
+  },
+  "line_style": {
+    "mode": "flux_width_only",
+    "threshold": 0.4,
+    "width_range": [1.5, 3.8],
+    "width_exponent": 0.65
+  },
+  "publication_style": {
+    "metabolite_font_pt": 15,
+    "reaction_font_pt": 11,
+    "legend_position": [550, 1300]
+  },
+  "publication_qa_policy": {
+    "structure_position_tolerance": 2,
+    "edge_edge_clearance": 18,
+    "max_route_stretch": 2.8,
+    "enforce_visual_metrics": true
+  },
+  "hidden_metabolites": ["NADP", "NADPH", "H", "H2O"],
+  "hidden_reactions": [],
+  "metabolites": {
+    "Formaldehyde": {"x": 90, "y": 600},
+    "Ru5P": {"x": 200, "y": 400},
+    "H6P": {"x": 282, "y": 170},
+    "F6P": {"x": 493, "y": 170},
+    "G6P": {"x": 705, "y": 170},
+    "NADP": {"x": 760, "y": 65},
+    "SixPGL": {"x": 917, "y": 170, "display_name": "6PGL"},
+    "H": {"x": 910, "y": 105, "display_name": "H⁺"},
+    "NADPH": {"x": 860, "y": 65},
+    "H2O": {"x": 990, "y": 280, "display_name": "H₂O"},
+    "SixPG": {"x": 1128, "y": 170, "display_name": "6PG"},
+    "KDPG": {"x": 1340, "y": 170},
+    "G3P": {"x": 1180, "y": 560},
+    "Pyruvate": {"x": 1510, "y": 730},
+    "E4P": {"x": 650, "y": 570},
+    "Xu5P": {"x": 570, "y": 760},
+    "S7P": {"x": 850, "y": 850},
+    "R5P": {"x": 350, "y": 860}
+  },
+  "reactions": {
+    "RUMP_R05338": {"x": 176, "y": 170, "pathway": "Other", "color": "#657786"},
+    "RUMP_R05339": {"x": 388, "y": 170, "pathway": "Other", "color": "#657786"},
+    "IML_PGI": {"x": 599, "y": 170, "pathway": "EMP", "color": "#657786"},
+    "IML_G6PDH2r": {
+      "x": 811, "y": 170, "pathway": "PPP", "color": "#657786",
+      "cofactors": {
+        "NADP": {"x": 760, "y": 65, "display_name": "NADP⁺", "scientific_role": "cofactor", "color": "#9AA6B2"},
+        "NADPH": {"x": 860, "y": 65, "display_name": "NADPH", "scientific_role": "cofactor", "color": "#9AA6B2"},
+        "H": {"x": 910, "y": 105, "display_name": "H⁺", "scientific_role": "currency", "color": "#B2BAC3"}
+      }
+    },
+    "IML_PGL": {
+      "x": 1023, "y": 170, "pathway": "PPP", "color": "#657786",
+      "cofactors": {
+        "H2O": {"x": 980, "y": 285, "display_name": "H₂O", "scientific_role": "currency", "color": "#B2BAC3"},
+        "H": {"x": 1060, "y": 285, "display_name": "H⁺", "scientific_role": "currency", "color": "#B2BAC3"}
+      }
+    },
+    "IML_EDD": {
+      "x": 1234, "y": 170, "pathway": "ED", "color": "#4A8D88",
+      "cofactors": {
+        "H2O": {"x": 1285, "y": 285, "display_name": "H₂O", "scientific_role": "currency", "color": "#B2BAC3"}
+      }
+    },
+    "IML_EDA": {"x": 1370, "y": 390, "pathway": "ED", "color": "#4A8D88"},
+    "IML_TKT2": {"x": 900, "y": 520, "pathway": "PPP", "color": "#B58AA6"},
+    "IML_RPE": {"x": 420, "y": 610, "pathway": "PPP", "color": "#B58AA6"},
+    "IML_TALA": {"x": 780, "y": 680, "pathway": "PPP", "color": "#B58AA6"},
+    "IML_TKT1": {"x": 650, "y": 850, "pathway": "PPP", "color": "#B58AA6"},
+    "IML_RPI": {"x": 280, "y": 650, "pathway": "PPP", "color": "#B58AA6"}
+  },
+  "scientific_layout": {
+    "enabled": true,
+    "route_policy": {
+      "enabled": true,
+      "channel_spacing": 24,
+      "handle_scale": 0.30,
+      "multi_metabolite_style": "reaction_bus",
+      "reaction_bus_half_length": 34,
+      "optimize_channels": true,
+      "max_exact_bundle_size": 7,
+      "optimize_edge_routes": true,
+      "max_edge_channel": 6,
+      "max_edge_iterations": 12,
+      "optimize_route_hubs": true,
+      "max_hub_nudge": 160,
+      "hub_nudge_step": 40,
+      "max_hub_iterations": 6,
+      "optimize_route_waypoints": true,
+      "max_waypoint_detour": 360,
+      "waypoint_detour_step": 40,
+      "max_waypoint_iterations": 8,
+      "obstacle_clearance": 42,
+      "optimize_flexible_nodes": true,
+      "max_node_nudge": 160,
+      "node_nudge_step": 40,
+      "max_node_iterations": 6,
+      "compact_zero_defect_routes": true,
+      "max_compaction_passes": 4
+    },
+    "role_palette": {
+      "source": "#2F6F8F",
+      "sink": "#2F6F8F",
+      "cycle_anchor": "#8B6FA3",
+      "main": "#657786",
+      "output": "#4A8D88",
+      "regeneration": "#B58AA6",
+      "cofactor": "#9AA6B2",
+      "currency": "#B2BAC3"
+    },
+    "roles": {
+      "source": ["Formaldehyde"],
+      "sink": ["Pyruvate"],
+      "cycle_anchor": ["Ru5P"],
+      "main": ["H6P", "F6P", "G6P", "SixPGL", "SixPG", "KDPG", "RUMP_R05338", "RUMP_R05339", "IML_PGI", "IML_G6PDH2r", "IML_PGL"],
+      "output": ["G3P", "IML_EDD", "IML_EDA"],
+      "regeneration": ["E4P", "Xu5P", "S7P", "R5P", "IML_TKT2", "IML_RPE", "IML_TALA", "IML_TKT1", "IML_RPI"],
+      "cofactor": ["NADP", "NADPH"],
+      "currency": ["H", "H2O"]
+    },
+    "lanes": [],
+    "structures": [
+      {
+        "name": "carbon_cycle_arc",
+        "type": "ellipse_arc",
+        "region": "outer_cycle",
+        "center": [800, 500],
+        "rx": 560,
+        "ry": 330,
+        "start_angle_deg": 140,
+        "end_angle_deg": 410,
+        "items": [
+          "Ru5P", "RUMP_R05338", "H6P", "RUMP_R05339", "F6P",
+          "IML_PGI", "G6P", "IML_G6PDH2r", "SixPGL", "IML_PGL",
+          "SixPG", "IML_EDD", "KDPG", "IML_EDA", "G3P"
+        ]
+      },
+      {
+        "name": "ppp_regeneration_ring",
+        "type": "ellipse",
+        "region": "regeneration",
+        "center": [700, 610],
+        "rx": 270,
+        "ry": 180,
+        "optimize_order": true,
+        "items": [
+          {"id": "Xu5P", "angle_deg": 210},
+          {"id": "E4P", "angle_deg": 250},
+          {"id": "S7P", "angle_deg": 430},
+          {"id": "R5P", "angle_deg": 505}
+        ]
+      }
+    ],
+    "anchors": {
+      "Formaldehyde": {"x": 90, "y": 600},
+      "Pyruvate": {"x": 1510, "y": 730},
+      "IML_TKT2": {"x": 980, "y": 520},
+      "IML_TALA": {"x": 820, "y": 600},
+      "IML_TKT1": {"x": 675, "y": 720},
+      "IML_RPE": {"x": 418, "y": 616},
+      "IML_RPI": {"x": 425, "y": 713}
+    },
+    "metabolite_styles": {
+      "Formaldehyde": {"align": "left", "label_priority": 100},
+      "Ru5P": {"align": "lower center", "label_priority": 95},
+      "H6P": {"align": "lower center", "label_priority": 80},
+      "F6P": {"align": "lower center", "label_priority": 90},
+      "G6P": {"align": "lower center", "label_priority": 80},
+      "SixPGL": {"display_name": "6PGL", "align": "lower center", "label_priority": 80},
+      "SixPG": {"display_name": "6PG", "align": "lower center", "label_priority": 80},
+      "KDPG": {"align": "lower center", "label_priority": 85},
+      "G3P": {"align": "lower center", "label_priority": 90},
+      "Pyruvate": {"align": "left", "label_priority": 100},
+      "E4P": {"align": "left", "label_priority": 65},
+      "Xu5P": {"align": "left", "label_priority": 65},
+      "S7P": {"align": "left", "label_priority": 65},
+      "R5P": {"align": "left", "label_priority": 65}
+    },
+    "reaction_styles": {
+      "RUMP_R05338": {
+        "display_name": "Hps", "route_style": "cubic_spline", "align": "upper center", "label_priority": 55,
+        "edge_route_overrides": {
+          "Formaldehyde->H6P": {"style": "straight", "source_port": "E", "target_port": "W"},
+          "Ru5P->H6P": {"style": "cubic_spline", "source_port": "N", "target_port": "W", "handle_scale": 0.34}
+        }
+      },
+      "RUMP_R05339": {"display_name": "Phi", "route_style": "cubic_spline", "route_handle_scale": 0.34, "align": "upper center", "label_priority": 55},
+      "IML_PGI": {"display_name": "PGI", "route_style": "cubic_spline", "route_handle_scale": 0.34, "align": "upper center", "label_priority": 55},
+      "IML_G6PDH2r": {"display_name": "G6PDH", "route_style": "cubic_spline", "route_handle_scale": 0.34, "align": "upper center", "label_priority": 55},
+      "IML_PGL": {"display_name": "PGL", "route_style": "cubic_spline", "route_handle_scale": 0.34, "align": "upper center", "label_priority": 55},
+      "IML_EDD": {"display_name": "EDD", "route_style": "cubic_spline", "route_handle_scale": 0.34, "align": "upper center", "label_priority": 55},
+      "IML_EDA": {"display_name": "EDA", "route_style": "cubic_spline", "route_handle_scale": 0.24, "align": "upper center", "label_priority": 55},
+      "IML_TKT2": {"display_name": "TKT2", "route_style": "bundle_spline", "route_bundle": "ppp_regeneration", "route_channel": -2, "route_hub_flexible": true, "align": "upper center", "label_priority": 40},
+      "IML_RPE": {"display_name": "RPE", "route_style": "bundle_spline", "route_bundle": "ppp_regeneration", "route_channel": -1, "align": "upper center", "label_priority": 40},
+      "IML_TALA": {"display_name": "TAL", "route_style": "bundle_spline", "route_bundle": "ppp_regeneration", "route_channel": 0, "route_hub_flexible": true, "align": "upper center", "label_priority": 40},
+      "IML_TKT1": {"display_name": "TKT1", "route_style": "bundle_spline", "route_bundle": "ppp_regeneration", "route_channel": 2, "route_hub_flexible": true, "align": "lower center", "label_priority": 40},
+      "IML_RPI": {"display_name": "RPI", "route_style": "bundle_spline", "route_bundle": "ppp_regeneration", "route_channel": 1, "align": "upper center", "label_priority": 40}
+    },
+    "label_policy": {
+      "enabled": true,
+      "metabolite_font": 15,
+      "reaction_font": 9,
+      "candidate_offsets": [[0, -18], [0, 18], [18, -12], [-18, -12], [24, 10], [-24, 10], [0, -34], [0, 34]]
+    }
+  }
+}

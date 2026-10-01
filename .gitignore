@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Local iteration history and generated deliveries are not source code.
+backups/
+_scratch*/
+candidate01_demo/
+nine_paths_pdf_20260921/
+nine_paths_open_chain_20260922/
+nine_paths_connected_readable_20260922/
+nine_paths_branch_amounts_20260922/
+nine_paths_source_split_20260922/
+
+# Generic generated deliverables.
+PDF/
+pdf_previews/
+PPT/
+_ppt_assets/
+*.log
+*.zip
+*.pdf
+*.png
+*.pptx

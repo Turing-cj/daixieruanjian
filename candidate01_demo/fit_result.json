@@ -1,0 +1,16 @@
+{
+  "opt_net_fluxes": {
+    "RUMP_R05338": 3.0,
+    "RUMP_R05339": 3.0,
+    "IML_PGI": 1.0,
+    "IML_G6PDH2r": 1.0,
+    "IML_PGL": 1.0,
+    "IML_EDD": 1.0,
+    "IML_EDA": 1.0,
+    "IML_TKT2": 1.0,
+    "IML_RPE": 2.0,
+    "IML_TALA": 1.0,
+    "IML_TKT1": 1.0,
+    "IML_RPI": 1.0
+  }
+}
